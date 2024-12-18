@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FinAI</title>
+</head>
+<body>
+  <h1>FinAI - Smart Investment Insights</h1>
+  <h2>Market Trend Predictions</h2>
+  <ul>
+    {% for prediction in trend_predictions %}
+    <li>{{ prediction }}</li>
+    {% endfor %}
+  </ul>
+  <h2>Sentiment Analysis</h2>
+  <p>Current Sentiment: {{ sentiment }}</p>
+</body>
+</html>
